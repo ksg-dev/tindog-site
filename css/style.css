@@ -16,11 +16,18 @@
   }
 }
 
+
 .icon-square {
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
 }
+
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}
+
 
 .profile-img {
   height: 100px;
